@@ -152,6 +152,7 @@
 			navigation.classList.toggle('active');
 		}
 	</script>
+	<script src="js/app.js"></script>
 </body>
 
 </html>
