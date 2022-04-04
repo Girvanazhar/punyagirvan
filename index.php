@@ -37,7 +37,7 @@
 				<a href="#">Learn More</a>
 			</div>
 			<div class="imgBox">
-				<img src="img/as-transparan.png" alt="">
+				<img src="img/Logo-AS.png" alt="">
 			</div>
 		</div>
 	</section>
