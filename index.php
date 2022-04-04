@@ -1,95 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nano Folio - Simple HTML Template</title>
-	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<title>Workshop SMK ADI SANGGORO</title>
+	<script src="https://kit.fontawesome.com/49d988846c.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="css/tooplate-style.css" rel="stylesheet">
-
-    <style>
-        .menu {
-            border: 10px solid green;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-    </style>
-
+	<link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-	<div class="tm-container-fluid">
-        <!-- code here -->
-        <section class="menu tm-bgcolor-1" id="">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </section>
-
-        <section class="tm-bgcolor-2 tm-p-50 mt-20" style="border-radius: 15px; margin-bottom: 20px;">
-            <h1>
-                <?php
-                    $pageTitle = 'Adi Sanggoro Keren';
-                    echo "$pageTitle - Banget";
-                ?>
-            </h1>
-            <?php
-                $x = 1;
-                while($x <=5) { 
-                    echo "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi amet corporis recusandae repudiandae eos, eligendi ducimus tenetur suscipit enim beatae aliquam officia veniam ex hic distinctio accusantium, voluptatem dicta?</p>";
-                    $x++;
-                }
-            ?>
-        </section>
-
-		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
-			<i class="fas fa-heart fa-3x"></i>
-			<h1>Adi Sanggoro</h1>
-		</section>
-
-		<section class="tm-about tm-mb-80 tm-p-50 tm-bgcolor-2 tm-border-rounded">
-			<div class="tm-about-header tm-flex-center">
-				<i class="fas fa-users fa-2x"></i>
-				<h2>About Us</h2>
+	<section>
+		<div class="circle1"></div>
+		<header>
+			<a href="#"><img src="img/logo-as.svg" class="logo" width="120px"></a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</header>
+		<div class="content">
+			<div class="textBox">
+				<h2>
+					Adi Sanggoro<br>Keren <span>Banget</span></h2>
+				</h2>
+				<?php
+				$x = 1;
+				while ($x <= 1) {
+					echo "<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum deleniti temporibus sed quis in id odio provident laudantium nulla odit inventore, nobis aliquid vitae adipisci eaque fugiat praesentium rerum porro.</p>";
+					$x++;
+				}
+				?>
+				<a href="#">Learn More</a>
 			</div>
-			<div class="tm-about-text">
-				<p class="tm-mb-40">Nano Folio is simple HTML template with a minimal very light-weight custom CSS file. Max content width is 940 pixels. You can easily change the width or any part in this template. Gallery comes with a pop-up image and simple categories.</p>
-				<p class="tm-mb-0">Please support Tooplate website by telling your friends about it. That is going to be very helpful for us. Feel free to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_blank">message us</a> via email or live chat if you have anything to say.</p>
+			<div class="imgBox">
+				<img src="img/as-transparan.png" alt="">
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="tm-contact tm-mb-50 tm-bgcolor-3 tm-border-rounded">
-			<div class="tm-contact-header tm-flex-center">
-				<i class="fas fa-map-pin fa-3x"></i>
-				<h2>Contact</h2>
+	<div class="section">
+		<div class="container">
+			<div class="abtus">
+				<a href=""> <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-group-cyber-security-kiranshastry-lineal-kiranshastry-2.png" /></a>
 			</div>
-			<div class="tm-contact-info">
-				<address class="tm-mb-30">
-					120 Curabitur sed tortor ultrices,
-					congue odio eget, posuere urna.
-					Praesent at rhoncus 10680
-				</address>
-				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a></div>
-				<div class="tm-flex">
-					<a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a>
-					<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a>
-					<a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a>
+			<div class="title">
+				<h1>About Us</h1>
+			</div>
+			<div class="about">
+				<div class="article">
+					<h3>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo velit, faucibus quis ultricies ut, condimentum sed eros. Phasellus bibendum commodo felis, ac molestie metus rutrum quis. Praesent nec lacinia arcu. Fusce scelerisque bibendum maximus. Phasellus pharetra nulla eu tortor posuere, vitae tempor mauris pellentesque. Pellentesque non vulputate felis. Mauris turpis elit, congue nec aliquet eget, gravida vel sem.
+					</h3>
+					<p>
+						Pellentesque in urna in odio pretium convallis. Nullam placerat, metus vitae ornare imperdiet, quam massa consequat ex, nec tempus urna risus quis risus. Donec arcu leo, aliquet quis mollis eu, sodales sed massa. Nullam ac massa lorem. Praesent ut massa nec ex ultrices faucibus. Mauris eleifend dolor aliquet consequat interdum. Vestibulum a fringilla dui. Pellentesque egestas mattis tellus, a sagittis leo eleifend vitae.
+					</p>
+					<div class="button">
+						<a href="">Read More</a>
+					</div>
 				</div>
 			</div>
-			<div class="tm-contact-form-container">
-				<form id="contact-form" action="" method="POST" class="tm-contact-form">
-		          	<input type="text" name="name" placeholder="name" required="" />
-		          	<input type="email" name="email" placeholder="email" required="" />
-		          	<textarea rows="5" name="message" class="tm-mb-30" placeholder="message" required=""></textarea>		          	
-		          	<button type="submit" class="tm-right tm-btn-submit">send</button>          	
-		        </form>    
-			</div>
-		</section>
-
-		<footer class="tm-footer">
-			Copyright 2020 Nano Folio - Design: <a rel="sponsored" href="https://www.tooplate.com" class="tm-link-gray">Tooplate</a>
-		</footer>
+		</div>
 	</div>
+	<div class="container-contactus">
+		<span class="big-circle"></span>
+		<img src="img/shape.png" class="square" alt="" />
+		<div class="form">
+			<div class="contact-info">
+				<h3 class="title">Let's get in touch</h3>
+				<p class="text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+					dolorum adipisci recusandae praesentium dicta!
+				</p>
 
+				<div class="info">
+					<div class="information">
+						<img src="img/location.png" class="icon" alt="" />
+						<p>Jl. Sengked No.1, Kampus IPB</p>
+					</div>
+					<div class="information">
+						<img src="img/email.png" class="icon" alt="" />
+						<p>lorem@ipsum.com</p>
+					</div>
+					<div class="information">
+						<img src="img/phone.png" class="icon" alt="" />
+						<p>123-456-789</p>
+					</div>
+				</div>
+
+				<div class="social-media">
+					<p>Connect with us :</p>
+					<div class="social-icons">
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact-form">
+				<span class="circle one"></span>
+				<span class="circle two"></span>
+
+				<form action="index.html" autocomplete="off">
+					<h3 class="title">Contact us</h3>
+					<div class="input-container">
+						<input type="text" name="name" class="input" />
+						<label for="">Username</label>
+						<span>Username</span>
+					</div>
+					<div class="input-container">
+						<input type="email" name="email" class="input" />
+						<label for="">Email</label>
+						<span>Email</span>
+					</div>
+					<div class="input-container">
+						<input type="tel" name="phone" class="input" />
+						<label for="">Phone</label>
+						<span>Phone</span>
+					</div>
+					<div class="input-container textarea">
+						<textarea name="message" class="input"></textarea>
+						<label for="">Message</label>
+						<span>Message</span>
+					</div>
+					<input type="submit" value="Send" class="btn" />
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<footer class="footer">
+		Copyright 2022 Girvan Azhar
+	</footer>
+	<script type="text/javascript">
+		function toggleMenu() {
+			var menuToggle = document.querySelector('.toggle');
+			var navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
 </body>
+
 </html>
